@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container{
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+emojy{
+    font-size: 100px;
+    filter: grayscale(1);
+    transition-duration: 700ms;
+}
+
+emojy:hover{
+    transform: scale(2.3);
+    filter: grayscale(0);
+    text-shadow: 0px 0px 10px crimson;
+}
